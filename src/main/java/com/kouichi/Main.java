@@ -24,8 +24,7 @@ public class Main {
       case "/" -> firstNumber / secondNumber;
       default -> total;
     };
-    System.out.println("期待される出力例:");
-    System.out.printf("   計算結果:" + firstNumber + operator + secondNumber + "=" + total);
 
+    System.out.printf("   計算結果:" + firstNumber + operator + secondNumber + "=" + total);
   }
 }
